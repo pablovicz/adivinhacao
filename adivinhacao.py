@@ -14,7 +14,7 @@ def jogar():
     print("Qual nível de dificuldade?")
     print("(1) Fácil - Range: 1 - 30 |  10 tentativas")
     print("(2) Médio - Range: 1 - 40 |  5 tentativas")
-    print("(3) Difícil - Range: 1 - 50 |   tentativas")
+    print("(3) Difícil - Range: 1 - 50 | 3  tentativas")
     nivel = int(input("Defina o nível: "))
 
     if (nivel == 1):

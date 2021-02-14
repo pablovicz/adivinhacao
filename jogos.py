@@ -13,6 +13,7 @@ jogo_escolhido = int(input("Qual Jogo?"))
 if jogo_escolhido == 1:
     print()
     forca.jogar()
+    forca.jogar_novamente()
 elif jogo_escolhido == 2:
     print()
     adivinhacao.jogar()
